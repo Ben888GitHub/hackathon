@@ -12,8 +12,8 @@ export class RestService {
   getUsers() {
     return new Promise(resolve => {
       this.http.get(this.apiUrl).subscribe(data => {
-        resolve(data['lifetime']);
-        console.log(data['lifetime']);
+        resolve(data['summary']);
+        console.log(data['summary']);
       }, err => {
         console.log(err);
       });

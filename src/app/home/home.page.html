@@ -12,8 +12,9 @@
     <p>If you get lost, the <a target="_blank" rel="noopener" href="https://ionicframework.com/docs/">docs</a> will be your guide.</p>
   </div>
   <div>
-      <h2>DISTANCE: {{users['distance']}}</h2>
-      <h2>STEPS: {{users['steps']}}</h2>
+      <h2>CALORIES BURNED TODAY: {{caloriesOut}}</h2>
+      <h2>TOTAL STEPS: {{step}}</h2>
+      <h2>SPEED: {{speed}} steps per minutes</h2>
   </div>
   <ion-buttons end>
     <button ion-button icon-only (click) ="getUpdate()"  >
